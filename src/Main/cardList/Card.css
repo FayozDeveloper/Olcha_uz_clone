@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Card{
+    width: 13em;
+    padding-left: 15px;
+    padding-right: 10px;
+    border-radius: 8px;
+}
+.Card:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.cardImg{
+    height: 50%;
+}
+.cardInfo{
+    height: 50%;
+    cursor: pointer;
+}
+.cardInfo .category{
+    display: block;
+    text-decoration: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 98%;
+    color: darkgray;
+}
+.cardInfo .category:hover{
+    color: red;
+    transition: 0.3s;
+}
+
+.cardInfo .title{
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+.cardInfo .title:hover{
+    color: red;
+}
+
+.cardInfo .price{
+    display: block;
+}
+
+.cardInfo .monthly{
+    color: #9FAAB7;
+    display: block;
+    font-size: 80%;
+    font-weight: 400;
+}
+.cardInfo .strike{
+    display: block;
+    color: red;
+    font-size: 80%;
+}

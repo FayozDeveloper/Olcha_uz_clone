@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.vl {
+    margin: 1px;
+    height: 1em;
+    margin-top: 10px;
+    border-left: 2px solid #E6E4E8;
+}
+.lang{
+    /*border:1px solid red;*/
+}
+.lang a{
+    color: gray;
+    /*border:1px solid blue;*/
+    margin: 4px;
+    font-size: 17px;
+    text-decoration: none;
+}
+.lang a:hover{
+    color: red;
+}
+/*HEADER RIGHT SIDE*/
+.headerR{
+    /*border:1px solid blue;*/
+}
+.headerR a{
+    color: gray;
+    margin: 0 15px;
+    text-decoration: none;
+}
+.headerR a:hover{
+    color: black;
+}
+
+/*mainHeader rightSide*/
+.mainHeader{
+    /*border:1px solid red;*/
+}
+
+.rightSide .btn:hover{
+    background-color: #EEEEEE;
+    color: red;
+    transition: 0.2s;
+}
+.rightSide .btn{
+    margin: 0 5px ;
+}
+/*Components*/
+.components{
+    /*border:1px solid blue;*/
+}
+.components ul{
+    justify-content:space-around;
+}
+.components ul li a{
+    padding: 0;
+    margin: 20px 10px 0 10px;
+    font-size: 15px;
+    font-weight: 500;
+    /*border:1px solid red;*/
+}
+

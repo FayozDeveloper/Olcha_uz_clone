@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Courousel*/
+.LeftMain .leftSide{
+    height: 100%;
+}
+.LeftMain .leftSide img{
+    margin: 2em 0 0 1rem;
+}
+/*Corousel info*/
+.rightSideCarousel{
+    margin: 2em 0 0 0.5em;
+}
+.rightSideCarousel .info{
+    margin: 1em ;
+}
+.rightSideCarousel .info .btn:hover{
+    background-color: black;
+    color: white;
+}
+
+/*RightMain*/
+.RightMain{
+    /*border:1px solid red;*/
+}
+
+.RightMain .infoRightCarousel{
+    height: 100%;
+    margin: 1rem;
+    border:1px solid transparent;
+}
+.RightMain .infoRightCarousel img{
+    width: 100%;
+    margin: 0 0 1em;
+}
